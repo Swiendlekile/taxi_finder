@@ -197,7 +197,7 @@ export default function Home() {
 
               <button
                 onClick={() => setCalcOpen(calcOpen === r.id ? null : r.id)}
-                className="w-full bg-yellow-400 text-black text-lg font-bold rounded-lg p-3 mt-4"
+                className="w-full bg-yellow-400 text-black text-lg font-bold rounded-lg p-3 mt-3"
               >
                 {calcOpen === r.id ? "Close calculator" : "I'm collecting the fare"}
               </button>
